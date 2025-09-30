@@ -28,9 +28,9 @@ const NewsletterSection = ({
       if (onSubscribe) {
         await onSubscribe(email);
       } else {
-        // Default behavior - you can replace with your API call
+        // replacing with API call
         console.log("Subscribing email:", email);
-        await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate API call
+        await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulating API call
       }
 
       setMessage("Thank you for subscribing!");

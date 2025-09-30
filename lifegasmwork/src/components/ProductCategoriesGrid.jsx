@@ -47,7 +47,7 @@ const ProductCategoriesGrid = ({
       onCategoryClick(category);
     } else {
       console.log(`Clicked: ${category.title}`);
-      // Default behavior - you can add navigation logic here
+      //  adding  navigation logic here
     }
   };
 

@@ -21,7 +21,7 @@ const NavBar = () => {
         <HamburgerButton onClick={toggleMenu} isOpen={isMenuOpen} />
 
         {/* Logo */}
-        <img src={Logo} alt="Lifegasm Logo"  />
+        <img src={Logo} alt="Lifegasm Logo" />
 
         {/* Right: Cart Icon */}
         <button>

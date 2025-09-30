@@ -26,7 +26,7 @@ const HeroSection = ({ backgroundImage }) => {
           bring warmth, functionality and beauty into your space.
         </p>
         <button className="bg-white text-gray-900 px-10 py-4 text-sm font-semibold uppercase tracking-widest hover:bg-gray-100 transition-all duration-300 shadow-xl">
-          Shop our Collection
+          Shop our Collection.
         </button>
       </div>
     </div>
