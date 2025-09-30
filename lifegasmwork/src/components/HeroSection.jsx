@@ -1,9 +1,8 @@
 import React from "react";
-import HeroImage from "../assets/images/livingdecor.png"; // Import the image
+import HeroImage from "../assets/images/livingdecor.png";
 
 const HeroSection = ({ backgroundImage }) => {
-  // Use the imported HeroImage, not the string path
-  const bgImage = HeroImage; // This is the correct way
+  const bgImage = HeroImage;
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -14,7 +13,6 @@ const HeroSection = ({ backgroundImage }) => {
         }}
       ></div>
 
-      {/* Add overlay for better text readability */}
       {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
 
       <div className="relative z-20 text-center text-white px-6 max-w-4xl mx-auto">
@@ -36,11 +34,3 @@ const HeroSection = ({ backgroundImage }) => {
 };
 
 export default HeroSection;
-
-
-
-
-
- 
-
- 
